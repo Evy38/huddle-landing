@@ -104,7 +104,7 @@ p {
 .func img {
   width: 400px;
 }
-.center{
+.center {
   display: flex;
   justify-content: center;
   z-index: 2;
@@ -122,5 +122,101 @@ p {
 }
 footer {
   background-color: hsl(192, 100%, 9%);
+  color: white;
+  padding: 180px 0 50px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-continu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  max-width: 350px;
+}
+.infoGenerales {
+  flex: 2;
+  min-width: 300px;
+  margin-right: 20px;
+}
+
+.loc,
+.num,
+.email {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 14px;
+}
+
+.loc img,
+.num img,
+.email img {
+  margin-right: 15px;
+  width: 18px;
+  height: 18px;
+}
+.liens {
+  flex: 2;
+  display: flex;
+  min-width: 300px;
+  margin-right: 20px;
+}
+
+.cln1,
+.cln2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+.cln1 a,
+.cln2 a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.cln1 :hover,
+.cln2 :hover {
+  text-decoration: underline;
+}
+
+.icons {
+  flex: 1;
+  min-width: 120px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons ion-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.icons ion-icon:hover {
+  border-color: hsl(322, 100%, 66%);
+  color: hsl(322, 100%, 66%);
+}
+.footer-continu p {
+  width: 100%;
+  text-align: end;
+  font-size: 12px;
+  margin-top: 30px;
   color: aliceblue;
 }
