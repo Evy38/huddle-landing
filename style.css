@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-familly-body: "Open Sans";
+  --font-familly-header: "Poppins";
+}
+
+header {
+  background-image: url(images/bg-hero-desktop.svg);
+  padding: 50px;
+}
+
+.buttonImg {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.buttonTry {
+  background-color: white;
+  color: hsl(208, 11%, 55%);
+  border-radius: 40px;
+  width: 130px;
+  border: none;
+}
+
+.buttonTry:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contenu {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  gap: 40px;
+}
+
+.contenu img {
+  width: 650px;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: var(--font-familly-header);
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: hsl(192, 100%, 9%);
+}
+
+.buttonGet {
+  border-radius: 40px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  width: 40%;
+  height: 50px;
+  padding: 10px 20px;
+  margin-top: 25px;
+  border: none;
+  font-weight: 650;
+}
+.buttonGet:hover {
+  background-color: hsl(322, 100%, 66%, 0.7);
+}
+
+.funcs {
+  padding: 75px 0;
+}
+.func {
+  background-color: white;
+  border-radius: 15px;
+  margin: 60px 100px;
+  padding: 40px 40px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  gap: 0px;
+}
+
+.description {
+  padding: 0 200px;
+}
+.description h2 {
+  font-family: var(--font-familly-header);
+  font-weight: 600;
+}
+.description p {
+  font-family: var(--font-familly-body);
+  color: hsl(208, 11%, 55%);
+}
+
+.func img {
+  width: 400px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  margin-bottom: -100px;
+  position: relative;
+}
+.ready {
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  width: 40%;
+  height: 200px;
+  padding: 50px 30px;
+  background-color: white;
+}
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  padding: 180px 0 50px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-continu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  max-width: 350px;
+}
+.infoGenerales {
+  flex: 2;
+  min-width: 300px;
+  margin-right: 20px;
+}
+
+.loc,
+.num,
+.email {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 14px;
+}
+
+.loc img,
+.num img,
+.email img {
+  margin-right: 15px;
+  width: 18px;
+  height: 18px;
+}
+.liens {
+  flex: 2;
+  display: flex;
+  min-width: 300px;
+  margin-right: 20px;
+}
+
+.cln1,
+.cln2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+.cln1 a,
+.cln2 a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.cln1 :hover,
+.cln2 :hover {
+  text-decoration: underline;
+}
+
+.icons {
+  flex: 1;
+  min-width: 120px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons ion-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.icons ion-icon:hover {
+  border-color: hsl(322, 100%, 66%);
+  color: hsl(322, 100%, 66%);
+}
+.footer-continu p {
+  width: 100%;
+  text-align: end;
+  font-size: 12px;
+  margin-top: 30px;
+  color: aliceblue;
+}
