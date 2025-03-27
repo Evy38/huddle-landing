@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-familly-body: "Open Sans";
+    --font-familly-header: "Poppins";
+}
+
+header{
+    background-image: url(images/bg-hero-desktop.svg);
+    padding: 50px;
+}
+
+.buttonImg{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+ }
+ 
+ .buttonTry{
+    background-color: white;
+    color: hsl(208, 11%, 55%);
+    border-radius: 40px;
+    width: 130px;
+    border: none;
+ }
+
+.buttonTry:hover{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+ }
+
+.contenu{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 40px;
+}
+
+.contenu img{
+    width: 650px;
+}
+ 
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var( --font-familly-header);
+    
+}
+
+h1{
+padding-bottom: 20px;
+font-weight: 600;
+}
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: hsl(192, 100%, 9%);
+}
+
+.buttonGet{
+    border-radius: 40px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 60%;
+    height: 50px;
+    padding: 10px 20px;
+    margin-top: 25px;
+    border: none;
+    font-weight: 650;
+}
+.buttonGet:hover{
+    background-color: hsl(322, 100%, 66%, 0.7);
+}
